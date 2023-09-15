@@ -1,0 +1,92 @@
+body
+{
+    align-items: center;
+}
+.cont1
+{
+    border: 3px solid rgb(25,118,210);;
+    border-radius: 5px;
+    text-align: center;
+    width: 400px;
+
+    position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.btn
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.boxalign
+{
+   position: absolute;
+   top: 70%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.pw
+{
+    padding-left: 14px;
+}
+.input1
+{
+    font-size: 17px;    
+}
+.fgp
+{
+    margin-bottom: 10px;
+}
+.ssss
+{
+    text-align: center;
+    font-size: 25px;
+}
+.input1
+{
+    border:1px solid rgb(43, 41, 41);
+    border-radius: 5px;
+    font-size: 20px;
+}
+.s1
+{    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h1{
+    color: rgb(25,118,210);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.loginbtn
+{
+    margin-bottom: 20px;
+}
+.backbtn
+{
+    text-decoration: none;
+}
+.btninline{
+    display: inline;
+}
+.signup1{
+    text-decoration: none;
+    color: white;
+}
+.error
+{
+    color: red;
+}
+.btns
+ {
+    display: flex;
+    align-items: center;
+}
+.heading
+{
+    color: rgb(13,110,253);
+}
