@@ -28,26 +28,26 @@ export default function Login() {
     //to Check Email pattern
     const handleEmailChange = (e) => {
         setUserDetails({ ...userDetails, username: e.target.value });
-        // if (!userDetails.username.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2})$/i)) {
-        //     setEmailError('Please enter a valid email address');
+        if (!userDetails.username.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2})$/i)) {
+            setEmailError('Please enter a valid email address');
 
-        // } else {
-        //     setEmailError('');
-        //     setValid(passwordError === '');
-        // }
+        } else {
+            setEmailError('');
+            setValid(passwordError === '');
+        }
 
     };
 
     //to check the password  pattern
     const handlePasswordChange = (e) => {
         setUserDetails({ ...userDetails, password: e.target.value });
-        // if (!userDetails.password.match(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/)) {
-        //     setPasswordError('Password must have at least 6 characters, 1 number, 1 uppercase letter, 1 lowercase letter, and 1 special character');
+        if (!userDetails.password.match(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/)) {
+            setPasswordError('Password must have at least 6 characters, 1 number, 1 uppercase letter, 1 lowercase letter, and 1 special character');
 
-        // } else {
-        //     setPasswordError('');
-        //     setValid(emailError === '');
-        // }
+        } else {
+            setPasswordError('');
+            setValid(emailError === '');
+        }
 
     };
 
@@ -98,6 +98,7 @@ export default function Login() {
                                 {/* <input type="password" value={userDetails.password} onChange={handlePasswordChange} required /> */}
                                 <div> <span className="error">{passwordError}</span></div>
                             </div>
+                         
                             <br>
                             </br>
                             <div className="btns">

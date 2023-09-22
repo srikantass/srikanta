@@ -1,13 +1,13 @@
 import React from 'react'
-import BagDispatch from "./Others/Dropdownonclik"
+import Login from "./Others/Onlysmallchar"
+import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 
 function App() {
     return (
-                     
-        <div>
-            <h1> GIT TEST</h1>
-            <BagDispatch />
-        </div>
+
+        <div>           
+        <Login />
+    </div>
     )
 }
 
