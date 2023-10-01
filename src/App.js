@@ -1,5 +1,5 @@
 import React from 'react'
-import Login from "./Others/QRcode"
+import Login from "./Barcode/Barcodetemp"
 import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 
 function App() {

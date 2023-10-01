@@ -1,0 +1,62 @@
+.body
+{
+  background-color: burlywood;
+ 
+}
+.body1
+{
+  text-align: center;
+  border: 1px solid black;
+  width: 30%;
+}
+table tbody tr td
+{
+ border: 1px solid black;
+ border-radius: 5px;
+}
+table thead tr th
+{
+ border: 1px solid black;
+}
+.table-container {
+  /* max-height: 300px; Set a maximum height for the container */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.scrollable-table {
+  border-collapse: collapse;
+  width: 50%;
+}
+.scrollable-table th {
+  background-color: #f2f2f2;
+  position: sticky;
+  top: 0;
+}
+.ems
+{
+  height: auto;
+  width: 90%;
+  margin-right: 10px;
+  
+}
+.logo1
+{
+  height: 20%;
+  width : 20%;
+  
+}
+.align1
+{
+  display: flex;
+  justify-content: center;
+}
+.error
+{
+  font-size: 10px;
+  color: red;
+}
+.btn2 :hover
+{
+  background-color: red;
+  color: white;
+}
